@@ -3,6 +3,44 @@ This is a basic Turtlesim ROS package coded in both c++ and python to avoid the 
 
 ##Instrution 
 
-Step 1: Clone this github repositiory into your ros workspace/src folder (eg - catkin_ws/src/automate_turtlesim)
+1. Clone this github repositiory into your ros workspace/src folder (eg - catkin_ws/src/automate_turtlesim)
+   
+   ```console
+   git clone https://github.com/Robo-Dude/Wall_collision_avoidance_in_turtlesim.git
+   ```   
+   
+2. Go back to catkin_ws folder open the terminal run catkin_make for building code in a catkin workspace.
+ 
+   ```console
+   catkin_make
+   ```
+   
+3. Now Open three terminals and run:
+
+   for C++ Nodes on terminal
+   
+   3.1 Terminal 1
+   
+     ```console
+     roscore
+     ```
+     
+   3.2 Terminal 2
+    
+      ```console
+      rosrun turtlesim turtlesim_node 
+      ```
+      
+   3.3 Terminal 3   
+      
+      ```console
+      rosrun automate_turtlesim collision
+      ```
+      
+   
+   
+   
+
+   
 
    
