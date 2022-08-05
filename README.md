@@ -37,6 +37,40 @@ This is a basic Turtlesim ROS package coded in both c++ and python to avoid the 
       rosrun automate_turtlesim collision
       ```
       
+   --------------------------------------------------------
+   
+    for Python Nodes on terminal
+    
+    Note - Don't forget to give executable permission to python nodes files
+    
+    ```console
+    chmod +x filename.py
+    ```
+   
+   3.1 Terminal 1
+   
+     ```console
+     roscore
+     ```
+     
+   3.2 Terminal 2
+    
+      ```console
+      rosrun turtlesim turtlesim_node 
+      ```
+      
+   3.3 Terminal 3   
+      
+      ```console
+      rosrun automate_turtlesim collision.py
+      ```
+      
+      
+ Video - 
+ 
+ 
+      
+      
    
    
    
