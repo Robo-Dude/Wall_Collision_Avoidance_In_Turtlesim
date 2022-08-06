@@ -1,7 +1,7 @@
 # Wall_Collision_Avoidance_In_Turtlesim
 This is a basic Turtlesim ROS package coded in both c++ and python to avoid the collision of turtle bot from the walls in turtlesim 
 
-### Instrution 
+### Instruction 
 
 1. Clone this github repositiory into your ros workspace/src folder (eg - catkin_ws/src/automate_turtlesim)
    
